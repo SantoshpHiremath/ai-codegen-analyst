@@ -209,7 +209,7 @@ Notes from building and testing the project:
 ## Relationship to sibling projects
 
 This project is a distinct pattern from the agentic tool-use projects
-in my related projects (`rag-tool-agent-demo`, `rag-tool-mcp-server`, `rag-tool-api-docker`), which route between a fixed set of *pre-written*
+in my related projects (`rag-tool-agent-demo`, `rag-tool-mcp-server`, `rag-tool-api`), which route between a fixed set of *pre-written*
 tools rather than generating new code at runtime. The
 `LLMClient`/`MockLLMClient` pattern (real interface, tested mock,
 never-executed real client) follows the same structure established in
