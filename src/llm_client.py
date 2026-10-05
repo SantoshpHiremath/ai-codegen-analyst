@@ -1,10 +1,7 @@
 """
-LLM client abstraction -- same honest-disclosure pattern used elsewhere in
-this portfolio (llm-eval-pipeline, underwriting-llm-risk-extraction,
-rag-tool-agent-demo).
+LLM client abstraction: a real client interface plus a tested mock.
 
-HONEST DISCLOSURE: this sandbox has no OpenAI or Anthropic API key
-configured, so `RealOpenAIClient` and `RealAnthropicClient` below have
+Note: no OpenAI or Anthropic API key is configured here, so `RealOpenAIClient` and `RealAnthropicClient` below have
 never actually been executed against a live API in this environment.
 Their call shapes match the real SDKs as closely as possible without
 being able to run them -- that is a different, weaker claim than "tested

@@ -49,7 +49,7 @@ def main() -> None:
     rows = generate_claims(n=2000, seed=42)
     df = pd.DataFrame(rows)
     print(f"  {len(df)} rows, columns: {list(df.columns)}")
-    print("  (synthetic data -- NOT real Allianz or any other insurer's data)")
+    print("  (synthetic data -- NOT real insurer data)")
 
     client = MockLLMClient()
 

@@ -1,8 +1,8 @@
 """
 Generates a synthetic motor/personal-injury insurance claims dataset --
-not real Allianz or any other insurer's data, which I have no access to.
-Modeled on the posting's own domain ("Schadensmanagement Kraft-
-Personenschaden" -- motor/personal-injury claims management), with
+not real insurer data.
+Modeled on motor/personal-injury claims management ("Schadensmanagement
+Kraft-Personenschaden"), with
 realistic claims-relevant columns and deliberately injected data-quality
 problems, since a real claims-analytics workflow has to handle messy
 source data, not a clean textbook table.
